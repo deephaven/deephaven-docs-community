@@ -1,0 +1,1 @@
+{"file":"core/docs/how-to-guides/simple-python-function.md","objects":{"result_numbers":{"type":"Table","data":{"columns":[{"name":"X","type":"int"},{"name":"Y","type":"int"},{"name":"Sum","type":"java.lang.String"}],"rows":[[{"value":"2"},{"value":"8"},{"value":"10"}],[{"value":"4"},{"value":"10"},{"value":"14"}],[{"value":"6"},{"value":"12"},{"value":"18"}]]}}}}

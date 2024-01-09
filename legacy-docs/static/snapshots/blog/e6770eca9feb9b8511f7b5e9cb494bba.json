@@ -1,0 +1,1 @@
+{"file":"blog/2022-03-02-numpy-array-contiguity.md","objects":{":log":{"type":"Log","data":"True\nTrue\nRow major average time: 0.00029824352264404296 seconds.\nCol major average time: 2.4991273880004882e-05 seconds.\n"}}}

@@ -1,0 +1,1 @@
+{"file":"blog/2022-09-15-query-scope.md","objects":{"t":{"type":"Table","data":{"columns":[{"name":"X","type":"long"},{"name":"A","type":"int"}],"rows":[[{"value":"4"},{"value":"6"}],[{"value":"5"},{"value":"6"}],[{"value":"6"},{"value":"6"}],[{"value":"7"},{"value":"6"}],[{"value":"8"},{"value":"6"}],[{"value":"9"},{"value":"6"}]]}}}}

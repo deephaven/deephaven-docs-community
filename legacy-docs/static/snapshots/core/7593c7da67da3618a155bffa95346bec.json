@@ -1,0 +1,1 @@
+{"file":"core/docs/tutorials/quickstart.md","objects":{"row_count_compare":{"type":"Table","data":{"columns":[{"name":"Row_Count","type":"long"},{"name":"Source","type":"java.lang.String"}],"rows":[[{"value":"1,000,000"},{"value":"CSV"}],[{"value":"107"},{"value":"Streaming"}]]}}}}

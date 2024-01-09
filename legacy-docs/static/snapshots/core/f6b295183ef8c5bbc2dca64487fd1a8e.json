@@ -1,0 +1,1 @@
+{"file":"core/docs/how-to-guides/performance/garbage-collection.md","objects":{"mem":{"type":"Table","data":{"columns":[{"name":"IntervalStart","type":"java.time.Instant"},{"name":"UsedMemMiB","type":"int"}],"rows":[]}},":log":{"type":"Log","data":"START 465.3865509033203\nCREATE 1131.2698516845703\nCREATE 1876.3418884277344\nDELETE 1876.3418884277344\nGC 833.8628311157227\n"}}}

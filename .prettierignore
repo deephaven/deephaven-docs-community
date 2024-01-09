@@ -1,0 +1,28 @@
+# Dependencies
+node_modules
+
+# Production
+build
+static
+
+# Generated files
+.docusaurus
+.cache-loader
+# The version log tables become really ugly from prettier spacing columns to max-width
+**/reference/version-logs/*
+
+# Misc
+.DS_Store
+**/*Zone.Identifier
+.idea
+*.iml
+
+.vscode
+
+npm-debug.log*
+
+tools/run-examples/*/**
+
+.github
+package.json
+package-lock.json

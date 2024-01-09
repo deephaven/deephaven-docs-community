@@ -1,0 +1,1 @@
+{"file":"core_versioned_docs/version-groovy/docs/how-to-guides/parquet-directory.md","objects":{"combined":{"type":"Table","data":{"columns":[{"name":"Month","type":"java.lang.String"},{"name":"TICKER","type":"java.lang.String"},{"name":"Price","type":"double"}],"rows":[[{"value":"Feb"},{"value":"MSFT"},{"value":"345.0000"}]]}}}}

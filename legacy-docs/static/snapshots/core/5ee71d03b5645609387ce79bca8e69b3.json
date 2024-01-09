@@ -1,0 +1,1 @@
+{"file":"core/docs/conceptual/data-types.md","objects":{":log":{"type":"Log","data":"3: <class 'int'>.\n3.14: <class 'float'>.\n(3+3j): <class 'complex'>.\nTrue: <class 'bool'>.\nHello world!: <class 'str'>.\n[1, 2, 3]: <class 'list'>.\n(1, 2, 3): <class 'tuple'>.\n{'a': 1, 'b': 2, 'c': 3}: <class 'dict'>.\n"}}}

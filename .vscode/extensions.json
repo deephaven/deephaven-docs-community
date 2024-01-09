@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "esbenp.prettier-vscode",
+        "znck.grammarly",
+        "eamodio.gitlens",
+        "github.vscode-pull-request-github",
+        "wayou.vscode-todo-highlight"
+    ]
+}

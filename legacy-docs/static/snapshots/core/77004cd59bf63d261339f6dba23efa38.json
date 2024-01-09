@@ -1,0 +1,1 @@
+{"file":"core/docs/conceptual/data-types.md","objects":{"array_table_with_nulls":{"type":"Table","data":{"columns":[{"name":"X","type":"int"},{"name":"Y","type":"java.lang.String"}],"rows":[[{"value":"0"},{"value":""}],[{"value":"1"},{"value":"[1.0,1.1]"}],[{"value":"2"},{"value":""}],[{"value":"3"},{"value":"[3.0,3.3000000000000003]"}],[{"value":"4"},{"value":""}]]}}}}
