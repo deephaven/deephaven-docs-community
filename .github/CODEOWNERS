@@ -19,7 +19,7 @@
 *.scss @dsmmcken @chipkent @mofojed @mattrunyon
 
 /core/**/*.md @margaretkennedy @pete-petey @jjbrosnan @chipkent
-/static/snapshots @margaretkennedy @pete-petey @jjbrosnan
+/static/snapshots @margaretkennedy @pete-petey @jjbrosnan @chipkent
 
 CONTRIBUTING.md @chipkent @dsmmcken @margaretkennedy
 README.md @chipkent @dsmmcken @margaretkennedy
