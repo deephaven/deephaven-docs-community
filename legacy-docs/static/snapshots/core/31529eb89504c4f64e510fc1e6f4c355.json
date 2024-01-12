@@ -1,1 +1,0 @@
-{"file":"core/docs/how-to-guides/partition-by.md","objects":{"sub_table":{"type":"Table","data":{"columns":[{"name":"IntCol","type":"int"},{"name":"StrCol","type":"java.lang.String"}],"rows":[[{"value":"3"},{"value":"value"}]]}}}}

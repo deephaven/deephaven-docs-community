@@ -1,1 +1,0 @@
-{"file":"core/docs/conceptual/data-types.md","objects":{":log":{"type":"Log","data":"The value 1073741823 takes 28 bytes of memory.\nThe value 1073741824 takes 32 bytes of memory.\nThe value 1.2 takes 24 bytes of memory.\nThe value True takes 28 bytes of memory.\n"}}}

@@ -1,1 +1,0 @@
-{"file":"core/docs/how-to-guides/use-pandas.md","objects":{"table":{"type":"Table","data":{"columns":[{"name":"A","type":"int"},{"name":"B","type":"java.lang.String"}],"rows":[[{"value":"1"},{"value":"X"}],[{"value":"2"},{"value":"Y"}],[{"value":"3"},{"value":"Z"}]]}},":log":{"type":"Log","data":"   A  B\n0  1  X\n1  2  Y\n2  3  Z\n"}}}

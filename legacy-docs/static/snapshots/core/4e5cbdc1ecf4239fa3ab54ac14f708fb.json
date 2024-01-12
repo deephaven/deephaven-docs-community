@@ -1,1 +1,0 @@
-{"file":"core_versioned_docs/version-groovy/docs/how-to-guides/partition-transform.md","objects":{"newConstituent":{"type":"Table","data":{"columns":[{"name":"IntCol","type":"int"},{"name":"StrCol","type":"java.lang.String"},{"name":"IntCol2","type":"int"}],"rows":[[{"value":"3"},{"value":"value"},{"value":"4"}]]}}}}

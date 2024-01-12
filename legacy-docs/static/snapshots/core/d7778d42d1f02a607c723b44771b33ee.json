@@ -1,1 +1,0 @@
-{"file":"core/docs/how-to-guides/use-pandas.md","objects":{"dropped_table":{"type":"Table","data":{"columns":[{"name":"B","type":"java.lang.String"}],"rows":[[{"value":"X"}],[{"value":"Y"}],[{"value":"Z"}]]}},":log":{"type":"Log","data":"   B\n0  X\n1  Y\n2  Z\n"}}}

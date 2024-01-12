@@ -1,1 +1,0 @@
-{"file":"core/docs/how-to-guides/regex.md","objects":{"result":{"type":"Table","data":{"columns":[{"name":"X","type":"java.lang.String"},{"name":"Y","type":"int"}],"rows":[[{"value":"A x"},{"value":"2"}],[{"value":"BaA"},{"value":"1"}],[{"value":"a3B"},{"value":"6"}]]}}}}

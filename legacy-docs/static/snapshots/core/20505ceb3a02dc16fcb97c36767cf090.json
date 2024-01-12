@@ -1,1 +1,0 @@
-{"file":"core/docs/conceptual/data-types.md","objects":{"my_table_with_nulls":{"type":"Table","data":{"columns":[{"name":"X","type":"int"},{"name":"Y","type":"long"}],"rows":[[{"value":"0"},{"value":"0"}],[{"value":"1"},{"value":""}],[{"value":"2"},{"value":"4"}],[{"value":"3"},{"value":""}],[{"value":"4"},{"value":"8"}]]}}}}

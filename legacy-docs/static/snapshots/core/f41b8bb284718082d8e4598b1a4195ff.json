@@ -1,1 +1,0 @@
-{"file":"core/docs/how-to-guides/use-pandas.md","objects":{"remove_values_table":{"type":"Table","data":{"columns":[{"name":"A","type":"double"},{"name":"B","type":"double"}],"rows":[[{"value":"1.0000"},{"value":"4.0000"}],[{"value":"2.0000"},{"value":"2.0000"}]]}},":log":{"type":"Log","data":"     A    B\n0  1.0  4.0\n1  2.0  2.0\n"}}}

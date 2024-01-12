@@ -1,1 +1,0 @@
-{"file":"core/docs/how-to-guides/new-table.md","objects":{"result":{"type":"Table","data":{"columns":[{"name":"Name_Of_String_Col","type":"java.lang.String"},{"name":"Name_Of_Int_Col","type":"int"}],"rows":[[{"value":"Data String 1"},{"value":"4"}],[{"value":"Data String 2"},{"value":"5"}],[{"value":"Data String 3"},{"value":"6"}]]}}}}
