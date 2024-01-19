@@ -56,40 +56,6 @@ Be sure that GitHub LFS is installed before cloning, or you will just see links 
 
 Commit changes to your own branches in your forked repository.
 
-### NPM Install
-
-To get started clone this repo, and assuming you have node.js installed (node LTS, not node current, see appendix for notes on managing node versions) run the following in the cloned directory. This will install the needed dependencies to build and run locally. If you don't have node installed, see [Installing Node](#installing-node) in the appendix below.
-
-```
-$ npm install
-```
-
-If you are running an M1 mac, please make sure your node version is >=16. (You can check by running `node -v`).
-
-## Local Development
-
-```
-$ npm start
-```
-
-This command starts a local development server on port 3001, [http://localhost:3001](http://localhost:3001), and will open up a browser window for live previewing. Most changes are reflected live without having to restart the server. Edit your changes in markdown and preview them in the browser.
-
-## Appendix
-
-### Installing Node
-
-If you don't have node installed (check with `node -v` on the command line), we recommend installing node by using [nvm](https://github.com/nvm-sh/nvm) (node version manager).
-
-Install nvm by running:
-
-`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash`
-
-Install the repo node version:
-
-`nvm use`
-
-If working with multiple repos w/ node versions, you can automatically switch between the versions with nvm based on the `.nvmrc` file by following the instructions [here](https://github.com/nvm-sh/nvm#deeper-shell-integration) for your shell.
-
 ## Code Of Conduct
 
 This project has adopted the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).
