@@ -34,7 +34,6 @@ The columns for each table need to have the same names and types, or a column mi
 The `merge_sorted` method is similar to the `merge` method, but it sorts the result table after merging the data. The `merge_sorted` method is more efficient than using `merge` followed by `sort`.
 
 ```python syntax
-t = merge(tables: List[Table])
 t = merge_sorted(tables: List[Table], order_by: str)
 ```
 
@@ -105,3 +104,22 @@ for i in range(5):
 
 result = merge(table_array)
 ```
+
+If you are sorting the data you want to merge, it is more efficient to use the `merge_sorted` method instead of `merge` followed by `sort`. Your code will be easier to read, too.
+
+```python order=null
+from deephaven import merge, merge_sorted, new_table
+from deephaven.column import int_col, string_col
+
+source1 = new_table([string_col("Letter", ["A", "B", "D"]), int_col("Number", [1, 2, 3])])
+source2 = new_table([string_col("Letter", ["C", "D", "E"]), int_col("Number", [14, 15, 16])])
+source3 = new_table([string_col("Letter", ["E", "F", "A"]), int_col("Number", [22, 25, 27])])
+
+# using `merge` followed by `sort`
+t_merged = merge(tables=[source1, source2, source3]).sort(order_by="Number")
+
+# using `merge_sorted`
+result = merge_sorted(tables=[source1,source2,source3], order_by="Number")
+```
+
+![img](../assets/working-with-deephaven-tables/merge-n-sort-vs-merge-sorted.png)
