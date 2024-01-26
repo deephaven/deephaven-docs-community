@@ -3,13 +3,9 @@ id: merging-tables
 title: Merging tables
 ---
 
-This guide discusses how to merge tables in Deephaven.
+Deephaven tables can be combined via two different categories of operation: merge operations and join operations. Merge operations combine tables by stacking them vertically, one on top of the other. Join operations combine tables (or specific columns from tables) horizontally, side by side.
 
-:::note
-
-Merge operations combine two tables by stacking the tables one on top of the other (vertically). To combine tables (or specific columns from tables) horizontally, see [How to join tables in Deephaven](*LINK*).
-
-:::
+This guide discusses how to merge tables in Deephaven. If you want to join tables horizontally, see [How to join tables in Deephaven](*LINK*).
 
 ## Syntax
 
@@ -123,3 +119,5 @@ result = merge_sorted(tables=[source1,source2,source3], order_by="Number")
 ```
 
 ![img](../assets/working-with-deephaven-tables/merge-n-sort-vs-merge-sorted.png)
+
+When we use `merge_sorted`, our query completes ten times as fast as it does when using `merge` followed by `sort`.
