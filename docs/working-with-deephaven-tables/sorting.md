@@ -75,19 +75,3 @@ result = source.sort(order_by="Letter").sort_descending(order_by="Number")
 ## Sort via the UI
 
 FIXME: from here
-
-## Related documentation
-
-- [How to install Python packages](./install-python-packages.md)
-- [How to use deephaven.learn](./use-deephaven-learn.md)
-- [How to use Python packages](./use-python-packages.md)
-- [How to use PyTorch](./use-pytorch.md)
-- [How to use TensorFlow](./use-tensorflow.md)
-- [How to use TensorBoard with Deephaven and TensorFlow](./use-tensorboard-with-tf.md)
-- [How to use SciKit-Learn](./use-scikit-learn.md)
-- [How to use variables and functions in query strings](./query-scope-how-to.md)
-- [How to write data to an in-memory, real-time table](./dynamic-table-writer.md)
-
-```
-
-```
