@@ -1,7 +1,6 @@
 ---
 id: sorting
-title: How to sort table data in Deephaven
-sidebar_label: Sorting data in Deephaven
+title: Sorting
 ---
 
 Sorting is a common operation in data analysis, and Deephaven makes it easy to sort data in a variety of ways. This guide will show you how to sort table data both programmatically and by using the UI.
