@@ -74,4 +74,48 @@ result = source.sort(order_by="Letter").sort_descending(order_by="Number")
 
 ## Sort via the UI
 
-FIXME: from here
+You can also perform sorting operations via the UI, without ever having to call a single method. To sort a column, right-click on the column header. Then, navigate down to **Sort by\*** and select a sort option.
+
+![img](../assets/working-with-deephaven-tables/sort-by-ui.png)
+
+To add a second sort (or third, fourth, and so on), right-click on a column header and select **Add Additional Sort**. Then, select a sort option.
+
+:::note
+
+If you choose **Sort by** instead of **Add Additional Sort**, the new sort will replace the existing sort(s).
+
+:::
+
+![img](../assets/working-with-deephaven-tables/addl-sort.png)
+
+To remove a sort, right-click on the column header and select **Remove sort** to remove a single sort, or **Clear Table Sorting** to remove all sorts.
+
+![img](../assets/working-with-deephaven-tables/rm-sort.png)
+
+Columns with active sorts are marked with sort icons. In this case, the `Letter` column has an upward arrow to indicate that it is sorted in ascending order, and the `Number` column has a downward arrow to indicate that it is sorted in descending order. In the **Sort by** menu, the active sort is marked with a colored line icon.
+
+![img](../assets/working-with-deephaven-tables/active-sorts.png)
+
+## `restrict_sort_to`
+
+The `restrict_sort_to` method allows you to restrict the columns that can be sorted via the UI. This is useful if you want to prevent yourself or other users from accidentally performing expensive sort operations as you interact with tables in the UI. For example, we can restrict sorting to the `Letter` column:
+
+```python test-set=1 order=table
+from deephaven import new_table
+from deephaven.column import string_col, int_col, double_col
+
+source = new_table([
+    string_col("Letter", ["A", "B", "A", "B", "B", "A"]),
+    int_col("Number", [6, 6, 1, 3, 4, 4]),
+    string_col("Color", ["red", "blue", "orange", "purple", "yellow", "pink"])
+])
+
+
+table = source.restrict_sort_to(cols="Letter")
+```
+
+Now, we can still sort by `Letter`, but attempting to sort by `Number` will result in an error:
+
+```python skip-test
+t_sorted = table.sort(order_by="Number")
+```
